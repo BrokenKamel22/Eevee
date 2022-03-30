@@ -1,0 +1,18 @@
+name: "Feature Requests"
+description: "Help improve Eevee by giving recommendations about what should be added!"
+title: "Your Feature Title"
+labels: ["Type: Enhancement", "Status: Pending"]
+assignees: ["Kwon25"]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Describe your Feature"
+      description: "Provide a clear description of what feature you would like to see added. Include information such as: why this feature should be added, how should it function, and a general idea of how it should be implemented."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Information"
+      description: "[Optional] If needed, provide any additiona context, photos, or files to help us better understand the error that has occured."

@@ -1,0 +1,41 @@
+name: "Bug Reports"
+description: "Help keep Eevee in tip-top shape by reporting any bugs that you find!"
+title: "Your Report Title"
+labels: ["Type: Bug", "Status: Pending"]
+assignees: ["Kwon25"]
+body:
+  - type: input
+    id: bot-version
+    attributes:
+      label: "Eevee Release"
+      description: "Please indicate the current release you are experiencing the error on. If you are unsure of the current version being hosted, refer to the `README` file for further information. If you are hosting Eevee locally, execute `npm run version` in your terminal to find the current version."
+      placeholder: "eg. v2.7.3"
+    validations:
+      required: true
+  - type: input
+    id: bot-host-type
+    attributes:
+      label: "Eevee Host Type"
+      description: "Please indicate where Eevee is being hosted when experiencing the problem. If you are unsure, refer to the `README` file for further information. "
+      placeholder: "eg. Heroku, Replit, Local, Main"
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "Description of Bug"
+      description: "Please explain the error you are encountering. Try to provide as much information as possible. Feel free to include the error messages being displayed."
+    validations:
+      required: true
+  - type: textarea
+    id: bug-replication
+    attributes:
+      label: "Replication of Bug"
+      description: "Please explain how the error can be replicated. If you are unsure of the exact steps, explain what was being done prior to the error."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Information"
+      description: "[Optional] If needed, provide any additiona context, photos, or files to help us better understand the error that has occured."

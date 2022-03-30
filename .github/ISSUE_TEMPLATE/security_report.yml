@@ -1,0 +1,18 @@
+name: "Security Report"
+description: "Help improve Eevee by bringing any security vulnerabilities to our attention!"
+title: "[SECURITY]: Your Title"
+labels: ["Type: Enhancement", "Status: Pending", "Priority: Critical"]
+assignees: ["Kwon25"]
+body:
+  - type: textarea
+    id: report-description
+    attributes:
+      label: "Describe the Vulnerability"
+      description: "Provide a clear description of the vulnerability you've found. Include information such as: how to replicate the issue, a possible fix, and detail how it meets the requirements in our security policy."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Information"
+      description: "[Optional] If needed, provide any additiona context, photos, or files to help us better understand the error that has occured."
