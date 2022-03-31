@@ -1,6 +1,10 @@
 {
     "color": {
-        "error": "#F47174"
+        "error": "#F47174",
+        "fun": "#565FF5",
+        "moderation": "#FFB347",
+        "utility": "#03BDDE",
+        "music": "#FF00FF"
     },
     "emote": {
         "error": "<:error:954245605478244362>",
